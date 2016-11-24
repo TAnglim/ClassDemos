@@ -24,9 +24,13 @@ class Simulation:
             return stats.mode(self._results)
         except:
             return None
-        
-die = Die()
-sim = Simulation(die.roll, 100000)
-print('Mean: {1}\tMedian: {1} \tMode: {2}'.upper().format(
-		sim.get_mean(), sim.get_median(), sim.get_mode()))
-		
+ 
+def main():
+    die = Die()
+    sim = Simulation(die.roll, 100000)
+    print('Mean: {1}\tMedian: {1} \tMode: {2}'.upper().format(
+	          sim.get_mean(), sim.get_median(), sim.get_mode()))
+
+if __name__  == "__main__":     #Simple test run
+    main()
+	
