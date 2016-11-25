@@ -1,0 +1,9 @@
+total 25
+drwxr-xr-x 1 Kathy 197121    0 Nov 25 13:03 ./
+drwxr-xr-x 1 Kathy 197121    0 Nov 25 13:00 ../
+drwxr-xr-x 1 Kathy 197121    0 Nov 25 13:03 .git/
+-rw-r--r-- 1 Kathy 197121   38 Nov 25 13:00 .gitignore
+-rw-r--r-- 1 Kathy 197121  961 Nov 25 13:00 Die.py
+-rw-r--r-- 1 Kathy 197121    0 Nov 25 13:03 listing.txt
+-rw-r--r-- 1 Kathy 197121  931 Nov 25 13:00 Simulation.py
+-rw-r--r-- 1 Kathy 197121 1182 Nov 25 13:00 WeightedDie.py
